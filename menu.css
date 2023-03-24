@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Delicious+Handrawn&family=Lobster&family=Pacifico&family=Rubik+Iso&family=Russo+One&display=swap');
+
+*{
+    scroll-behavior: smooth;
+}
+
+#container{
+    text-align: center;
+}
+
+#header{
+    font-family: 'Rubik Iso', cursive;
+    color: #dd793b;
+}
+
+#header h1{
+    font-size: 10vw;
+    cursor: pointer;
+}
+
+body{
+    background-color: #8f909131;
+}
+
+/**************NAV BAR***************/
+
+#navigation{
+    text-decoration: none;    
+}
+
+
+#navbarMenu{
+    justify-content: center;
+    border-top: 4px solid #dd793b;
+    border-bottom: 3px solid #dd793b;
+}
+
+#navbarMenu a{
+    color: black;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+#navbarMenu a:hover{
+    background-color: #dd793b;
+    border-radius: 5%;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+/****************MENU******************/
+
+#menu-container{
+    
+    text-align: center;   
+}
+
+.card{
+    backdrop-filter: blur(25px) saturate(200%);
+    -webkit-backdrop-filter: blur(25px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.84);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+/******************Main Dish*******************/
+
+#c-parent h1, h2, h5, p{
+    text-align: center;
+}
+
+#c-parent h1, h2, p{
+    font-family: 'Amita', cursive;
+}
+
+#c-parent h1{
+    margin-bottom: 10%;
+    font-size: 100px;
+    text-decoration: underline;
+}
+
+#c-parent h2{
+    margin-bottom: 7%;
+    font-size: 40px;
+    box-shadow: 6px 6px 15px black;
+}
+
+#main-dish{
+    margin-bottom: 7%;
+}
+
+
+/******************APPETIZERS*********************/
+
+#appetizers{
+    margin-bottom: 7%;
+}
+
+/***************BEVERAGES*******************/
+
+#beverages{
+    margin-bottom: 7%;
+}
+
+/****************FOOTER*****************/
+
+#footer{
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+}
+
+#footer p{
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+#footer a{
+    padding-left: 20px;
+}
+
+#footer h6{
+    padding-top: 20px;
+}
+
